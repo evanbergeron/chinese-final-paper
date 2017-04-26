@@ -31,6 +31,8 @@
 
 \begin{document}
 \maketitle
+According to \cite{Xia2014}, we have the following figures. We can see
+that air quality and GDP growth are negatively correlated.
 
 \begin{figure}[h]
 \centering
@@ -56,5 +58,10 @@
 \caption{Air quality since 1991}
 \end{figure}
 
-
+% bib stuff
+\nocite{*}
+% \addtocontents{toc}{\protect\vspace{\beforebibskip}}
+\addcontentsline{toc}{section}{\refname}
+\bibliographystyle{plain}
+\bibliography{paper}
 \end{document}
